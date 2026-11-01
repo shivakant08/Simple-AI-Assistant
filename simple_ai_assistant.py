@@ -8,7 +8,7 @@ from types import SimpleNamespace
 
 # Local modules
 from tools import TOOLS, run_tool
-from Utilities.utilities import log
+from utilities.utilities import log
 
 
 
