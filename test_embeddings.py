@@ -16,3 +16,4 @@ response=client.embeddings.create(
 for i, emb in enumerate(response.data):
     print(f"Embedding for input {i}: length {len(emb.embedding)}")
     print(emb.embedding[:5])
+ 
